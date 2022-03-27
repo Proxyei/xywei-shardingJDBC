@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xywei.springboot.practise.employee.dao.EmployeeDao">
+
+	<select id="getAllEmployee" resultType="com.xywei.springboot.practise.employee.domain.Employee">
+		SELECT
+		*
+		FROM
+		employee
+	</select>
+
+	<select id="getEmployees" resultType="com.xywei.springboot.practise.employee.domain.Employee">
+		SELECT
+		*
+		FROM
+		employee
+		LIMIT 1
+	</select>
+</mapper>

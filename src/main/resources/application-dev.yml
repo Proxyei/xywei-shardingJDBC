@@ -1,0 +1,30 @@
+server:
+  port: 9102
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://192.168.126.148:5432/dev2022
+    username: xywei
+    password: dev@2022
+    
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.**.domain
+  configuration:
+    map-underscore-to-camel-case: true
+ 
+pagehelper:
+  helper-dialect: postgresql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql 
+
+logging:
+  level:
+    root: info
+  file:
+    name: boot2022.log
+ 
+ 
+ 
