@@ -1,59 +1,19 @@
-2022-03-27 15:15:07.195  INFO 15784 --- [restartedMain] c.x.s.SpringbootPractise02Application    : Starting SpringbootPractise02Application using Java 1.8.0_281 on Future2022 with PID 15784 (E:\workspace_idea\springboot-practise-02\target\classes started by xywei in E:\workspace_idea\springboot-practise-02)
-2022-03-27 15:15:07.205  INFO 15784 --- [restartedMain] c.x.s.SpringbootPractise02Application    : The following profiles are active: dev
-2022-03-27 15:15:07.237  INFO 15784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-03-27 15:15:07.237  INFO 15784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-03-27 15:15:07.948  INFO 15784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9102 (http)
-2022-03-27 15:15:07.953  INFO 15784 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-27 15:15:07.953  INFO 15784 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
-2022-03-27 15:15:07.990  INFO 15784 --- [restartedMain] o.a.c.c.C.[.[localhost].[/boot202202]    : Initializing Spring embedded WebApplicationContext
-2022-03-27 15:15:07.990  INFO 15784 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 752 ms
-2022-03-27 15:15:08.366  INFO 15784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-03-27 15:15:08.386  INFO 15784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9102 (http) with context path '/boot202202'
-2022-03-27 15:15:08.393  INFO 15784 --- [restartedMain] c.x.s.SpringbootPractise02Application    : Started SpringbootPractise02Application in 1.498 seconds (JVM running for 282.814)
-2022-03-27 15:17:20.298  INFO 13024 --- [restartedMain] c.x.s.SpringbootPractise02Application    : Starting SpringbootPractise02Application using Java 1.8.0_281 on Future2022 with PID 13024 (E:\workspace_idea\springboot-practise-02\target\classes started by xywei in E:\workspace_idea\springboot-practise-02)
-2022-03-27 15:17:20.299  INFO 13024 --- [restartedMain] c.x.s.SpringbootPractise02Application    : The following profiles are active: dev
-2022-03-27 15:17:20.329  INFO 13024 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-03-27 15:17:20.329  INFO 13024 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-03-27 15:17:21.003  INFO 13024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9102 (http)
-2022-03-27 15:17:21.008  INFO 13024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-27 15:17:21.008  INFO 13024 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
-2022-03-27 15:17:21.062  INFO 13024 --- [restartedMain] o.a.c.c.C.[.[localhost].[/boot202202]    : Initializing Spring embedded WebApplicationContext
-2022-03-27 15:17:21.063  INFO 13024 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 734 ms
-2022-03-27 15:17:21.428  INFO 13024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-03-27 15:17:21.448  INFO 13024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9102 (http) with context path '/boot202202'
-2022-03-27 15:17:21.455  INFO 13024 --- [restartedMain] c.x.s.SpringbootPractise02Application    : Started SpringbootPractise02Application in 1.42 seconds (JVM running for 109.21)
-2022-03-27 15:19:09.482  INFO 13024 --- [http-nio-9102-exec-2] o.a.c.c.C.[.[localhost].[/boot202202]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-03-27 15:19:13.287  INFO 13024 --- [http-nio-9102-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-03-27 15:23:36.837  INFO 13024 --- [http-nio-9102-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 263248 ms
-2022-03-27 16:03:12.406  INFO 13024 --- [http-nio-9102-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-03-27 16:03:16.833  INFO 13024 --- [http-nio-9102-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-03-27 16:07:00.482  WARN 13024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s120ms630µs800ns).
-2022-03-27 16:08:26.951  WARN 13024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m33s670ms37µs).
-2022-03-27 16:11:21.406  WARN 13024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m54s454ms889µs500ns).
-2022-03-27 16:12:26.741  WARN 13024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s334ms275µs899ns).
-2022-03-27 16:24:11.082  INFO 13024 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-03-27 16:24:11.085  INFO 13024 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-03-27 16:24:49.617  INFO 14108 --- [restartedMain] c.x.s.SpringbootPractise02Application    : Starting SpringbootPractise02Application using Java 1.8.0_281 on Future2022 with PID 14108 (E:\workspace_idea\springboot-practise-02\target\classes started by xywei in E:\workspace_idea\springboot-practise-02)
-2022-03-27 16:24:49.618  INFO 14108 --- [restartedMain] c.x.s.SpringbootPractise02Application    : The following profiles are active: dev
-2022-03-27 16:24:49.648  INFO 14108 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-03-27 16:24:49.648  INFO 14108 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-03-27 16:24:50.329  INFO 14108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9102 (http)
-2022-03-27 16:24:50.334  INFO 14108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-27 16:24:50.335  INFO 14108 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
-2022-03-27 16:24:50.371  INFO 14108 --- [restartedMain] o.a.c.c.C.[.[localhost].[/boot202202]    : Initializing Spring embedded WebApplicationContext
-2022-03-27 16:24:50.371  INFO 14108 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 722 ms
-2022-03-27 16:24:50.763  INFO 14108 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-03-27 16:24:50.783  INFO 14108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9102 (http) with context path '/boot202202'
-2022-03-27 16:24:50.790  INFO 14108 --- [restartedMain] c.x.s.SpringbootPractise02Application    : Started SpringbootPractise02Application in 1.453 seconds (JVM running for 38.307)
-2022-03-27 16:26:38.764  INFO 2988 --- [restartedMain] c.x.s.SpringbootPractise02Application    : Starting SpringbootPractise02Application using Java 1.8.0_281 on Future2022 with PID 2988 (E:\workspace_idea\springboot-practise-02\target\classes started by xywei in E:\workspace_idea\springboot-practise-02)
-2022-03-27 16:26:38.765  INFO 2988 --- [restartedMain] c.x.s.SpringbootPractise02Application    : The following profiles are active: dev
-2022-03-27 16:26:38.795  INFO 2988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-03-27 16:26:38.795  INFO 2988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-03-27 16:26:39.478  INFO 2988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9102 (http)
-2022-03-27 16:26:39.483  INFO 2988 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-27 16:26:39.483  INFO 2988 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
-2022-03-27 16:26:39.522  INFO 2988 --- [restartedMain] o.a.c.c.C.[.[localhost].[/boot202202]    : Initializing Spring embedded WebApplicationContext
-2022-03-27 16:26:39.522  INFO 2988 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 727 ms
-2022-03-27 16:26:39.916  INFO 2988 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-03-27 16:26:39.935  INFO 2988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9102 (http) with context path '/boot202202'
-2022-03-27 16:26:39.942  INFO 2988 --- [restartedMain] c.x.s.SpringbootPractise02Application    : Started SpringbootPractise02Application in 1.443 seconds (JVM running for 77.515)
+2022-04-06 23:02:12.409  INFO 20152 --- [main] x.s.SpringbootPractise02ApplicationTests : Starting SpringbootPractise02ApplicationTests using Java 1.8.0_281 on Future2022 with PID 20152 (started by xywei in E:\workspace_idea\springboot-practise-02)
+2022-04-06 23:02:12.484  INFO 20152 --- [main] x.s.SpringbootPractise02ApplicationTests : The following 1 profile is active: "dev"
+2022-04-06 23:02:14.923  INFO 20152 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-06 23:02:14.924  INFO 20152 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-06 23:02:14.925  INFO 20152 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-04-06 23:02:14.958  INFO 20152 --- [main] x.s.SpringbootPractise02ApplicationTests : Started SpringbootPractise02ApplicationTests in 3.376 seconds (JVM running for 5.502)
+2022-04-06 23:02:15.226  INFO 20152 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-04-06 23:02:15.226  INFO 20152 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-04-06 23:02:15.227  INFO 20152 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-04-06 23:02:37.542  INFO 20152 --- [main] c.x.s.p.filter.PageHelperClearFilter     : invoke filter: main
+2022-04-06 23:02:53.308  INFO 19708 --- [main] c.x.s.SpringbootPractise02Application    : Starting SpringbootPractise02Application using Java 1.8.0_281 on Future2022 with PID 19708 (E:\workspace_idea\springboot-practise-02\target\classes started by xywei in E:\workspace_idea\springboot-practise-02)
+2022-04-06 23:02:53.310  INFO 19708 --- [main] c.x.s.SpringbootPractise02Application    : The following 1 profile is active: "dev"
+2022-04-06 23:02:53.965  INFO 19708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9102 (http)
+2022-04-06 23:02:53.972  INFO 19708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-06 23:02:53.973  INFO 19708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-06 23:02:54.208  INFO 19708 --- [main] o.a.c.c.C.[.[localhost].[/boot202202]    : Initializing Spring embedded WebApplicationContext
+2022-04-06 23:02:54.208  INFO 19708 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 868 ms
+2022-04-06 23:02:54.684  INFO 19708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9102 (http) with context path '/boot202202'
+2022-04-06 23:02:54.697  INFO 19708 --- [main] c.x.s.SpringbootPractise02Application    : Started SpringbootPractise02Application in 1.697 seconds (JVM running for 2.542)
