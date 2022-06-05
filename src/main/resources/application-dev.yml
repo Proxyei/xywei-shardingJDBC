@@ -11,14 +11,12 @@ spring:
         jdbcUrl: jdbc:postgresql://192.168.126.147:5432/dev2022
         username: xywei
         password: dev@2022
-        initializationFailTimeout: 100
       ds1:
         type: com.zaxxer.hikari.HikariDataSource
         driverClassName: org.postgresql.Driver
         jdbcUrl: jdbc:postgresql://192.168.126.148:5432/dev2022
         username: xywei
         password: dev@2022
-        initializationFailTimeout: 100
     sharding:
       tables:
         employee:
