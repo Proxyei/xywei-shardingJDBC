@@ -13,7 +13,7 @@ public class PersonConfig {
     @Bean(name = "emp2", initMethod = "init")
     public Employee employee() {
         System.out.println("----bean emp---");
-        return new Employee(2022, 2022, "2022Name");
+        return new Employee(2022L, 2022L, "2022Name");
     }
 
 }

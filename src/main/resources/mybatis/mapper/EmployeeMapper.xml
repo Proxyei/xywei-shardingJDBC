@@ -16,4 +16,9 @@
 		employee
 		LIMIT 1
 	</select>
+
+	<insert id="insertEmployee">
+		insert into employee(id, employee_name) values (#{entity.id}, #{entity.employeeName})
+	</insert>
+
 </mapper>

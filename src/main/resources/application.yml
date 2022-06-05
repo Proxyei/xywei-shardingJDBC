@@ -3,5 +3,4 @@ server:
     context-path: /boot202202
 spring:
   profiles:
-    active:
-    - dev
+    active: alpha

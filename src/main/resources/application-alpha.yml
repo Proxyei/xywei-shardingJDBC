@@ -1,21 +1,21 @@
 server:
-  port: 9102
+  port: 9103
 
 spring:
   shardingsphere:
     datasource:
       names: ds0,ds1
       ds0:
-        type: com.zaxxer.hikari.HikariDataSource
+        type: com.alibaba.druid.pool.DruidDataSource
         driverClassName: org.postgresql.Driver
-        jdbcUrl: jdbc:postgresql://192.168.126.147:5432/dev2022
+        url: jdbc:postgresql://192.168.126.147:5432/dev2022
         username: xywei
         password: dev@2022
         initializationFailTimeout: 100
       ds1:
-        type: com.zaxxer.hikari.HikariDataSource
+        type: com.alibaba.druid.pool.DruidDataSource
         driverClassName: org.postgresql.Driver
-        jdbcUrl: jdbc:postgresql://192.168.126.148:5432/dev2022
+        url: jdbc:postgresql://192.168.126.148:5432/dev2022
         username: xywei
         password: dev@2022
         initializationFailTimeout: 100

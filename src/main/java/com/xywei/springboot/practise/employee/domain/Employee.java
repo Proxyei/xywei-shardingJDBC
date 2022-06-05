@@ -1,15 +1,15 @@
 package com.xywei.springboot.practise.employee.domain;
 
 public class Employee {
-	private Integer id;
-	private Integer leaderId;
+	private Long id;
+	private Long leaderId;
 	private String employeeName;
 
 	public Employee() {
 		System.out.println("emp 空构造方法");
 	}
 
-	public Employee(Integer id, Integer leaderId, String employeeName) {
+	public Employee(Long id, Long leaderId, String employeeName) {
 		super();
 		System.out.println("emp 有参构造方法");
 		this.id = id;
@@ -21,19 +21,19 @@ public class Employee {
 		System.out.println("emp init方法");
 	}
 
-	public Integer getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
-	public Integer getLeaderId() {
+	public Long getLeaderId() {
 		return leaderId;
 	}
 
-	public void setLeaderId(Integer leaderId) {
+	public void setLeaderId(Long leaderId) {
 		this.leaderId = leaderId;
 	}
 
